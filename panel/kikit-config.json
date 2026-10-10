@@ -1,0 +1,55 @@
+{
+    "layout": {
+        "hspace": "5mm",
+        "vspace": "5mm",
+        "rows": "2",
+        "cols": "2"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "20mm",
+        "hwidth": "20mm",
+        "hcount": "0"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "clearance": "1mm"
+    },
+    "framing": {
+        "type": "railstb",
+        "width": "6mm",
+        "fillet": "1.5mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "6mm",
+        "voffset": "3mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "3mm",
+        "opening": "2mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "3mm",
+        "text": "74HC165 Module Rev {boardRevision}"
+    },
+    "text2": {
+        "type": "simple",
+        "voffset": "-3mm",
+        "width": "1.25mm",
+        "height": "1.25mm",
+        "thickness": "0.2mm",
+        "text": "\u00a9 {year} Shubham Patel \n CERN-OHL-S v2",
+        "anchor": "mb"
+    },
+    "copperfill": {
+        "type": "hatched",
+        "width": "0.5mm"
+    },
+    "post": {
+        "millradius": "1mm"
+    }
+}

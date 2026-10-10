@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ignore justfile in GitHub language statistics
+justfile linguist-generated=true
